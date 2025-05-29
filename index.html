@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/imagens/1000013301.webp" alt="avatar da Bruno" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Bruno</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante do ensino médio, atualmente estou aprendendo programação e suas linguagens.No futuro pretendo
+            trabalhar com engeinharia de sistemas. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h5>Meus projetos</h5>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo:Quente e frio</h5>
+                        <p class="card-text">Este projeto é um jogo, onde o jogador precisa encontrar as cegas um ponto
+                            que muda de forma aleatória pelo canvas. O jogador pode saber se está perto do ponto pelo
+                            circulo que segue o mouse e cresce quanto mais perto o cursor está do objetivo
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida de 4 jogadores</h5>
+                        <p class="card-text">Este projeto é um jogo de corrida que consiste em uma competição entre 4
+                            jogadores com o objetivo
+                            de chegar até a linha de chegada.Cada jogador é representado por um emoji e cada possui uma
+                            tecla no teclado sendo elas:"a" controla a van,"s"
+                            controla a moto,"d" controla o trator e "f" controla o carro</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Dias da semana
+                        </h5>
+                        <p class="card-text">Este projeto consiste em uma agenda que organiza dias da semana para
+                            estudar diferentes materias a cada dia.O objetivo é auxiliar nos estudos.O projeto possui 5
+                            materias para cada dia, sendo elas: matematica,química,física,português e biologia
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal"
+                                data-bs-target="#modal3">Veja
+                                o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Jogo quente e frio</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/imagens/Captura de tela 2025-05-08 114029.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Quente frio">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/bruno_0/full/rI69e-qxR">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/bruno_0/sketches/rI69e-qxR"></iframe></iframe>Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Corrida</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/imagens/corrida.png" class="img-fluid w-100"
+                        alt="Imagem representativa do jogo Corrida">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/bruno_0/full/4TGdJHEyF">Ver projeto ao
+                        vivo</a>
+                    <a href="https://editor.p5js.org/bruno_0/sketches/4TGdJHEyF">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Dias da semana</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/imagens/Captura de tela 2025-05-15 110423.png" alt="Projeto 3"
+                        class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/bruno_0/full/Ajf9zbkRd">Ver projeto ao vivo</a>
+                     <a href="https://editor.p5js.org/bruno_0/sketches/Ajf9zbkRd">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-e-mail"></i>
+            <a>G-mail</a>
+            <p>brunoalmeidasilva898@gmail.com</p>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Bruno Almeida</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
